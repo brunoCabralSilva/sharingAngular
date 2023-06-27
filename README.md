@@ -4,8 +4,8 @@
 
 <p align="center">Funcionalidade criada no componente pai que altera diretamente o componente filho:<p>
 
-![pai-para-filho](src/assets/pai-para-filho.gif)
+<img align="center" src="./src/assets/pai-para-filho.gif" alt= "funcionalidade de evento de pai para filho" />
 
 <p align="center">Funcionalidade criada no componente filho que altera diretamente o componente pai:</p>
 
-![filho-para-pai](src/assets/pai-para-filho.gif)
+<img align="center" src="./src/assets/filho-para-pai.gif" alt= "funcionalidade de evento de filho para pai" />
