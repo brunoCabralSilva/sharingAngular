@@ -1,0 +1,47 @@
+header {
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 50;
+}
+
+p {
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.icon-select {
+  height: 70%;
+  width: 27%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  height: 100%;
+}
+
+select {
+  padding: 4px 2px;
+  text-align: center;
+  font-size: 14px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 4px 5px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid black;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}

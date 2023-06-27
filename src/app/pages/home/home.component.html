@@ -1,0 +1,22 @@
+<header>
+  <app-header
+    [user]="userName"
+    (returnImage)="onReturnImage($event)"
+  />
+</header>
+<div class="home">
+  <img [src]="image" />
+  <div class="input-button">
+    <input
+      type="text"
+      placeholder="Insira um nome"
+      [(ngModel)]="inputData"
+    />
+    <button
+      type="button"
+      (click)="registerName()"
+    >
+      Inserir
+    </button>
+  </div>
+</div>

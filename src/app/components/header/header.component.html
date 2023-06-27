@@ -1,0 +1,22 @@
+<header>
+  <div class="icon-select">
+    <img [src]="icon" alt="icone do Angular" />
+    <div>
+      <select
+        [(ngModel)]="imageSelected"
+      >
+        <option disabled selected>
+          Selecione um tipo de imagem de fundo
+        </option>
+        <option>Campos no entardecer</option>
+        <option>Floresta Noturna</option>
+        <option>Céu Enluarado</option>
+        <option>Mar no amanhecer</option>
+      </select>
+      <button (click)="changeImage()">
+        Ok
+      </button>
+    </div>
+  </div>
+  <p>Bem vindo {{ user }}!</p>
+</header>
