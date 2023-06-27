@@ -4,8 +4,12 @@
 
 <p align="center">Funcionalidade criada no componente pai que altera diretamente o componente filho:<p>
 
-<img align="center" src="./src/assets/pai-para-filho.gif" alt= "funcionalidade de evento de pai para filho" />
+<div align="center">
+  <img align="center" src="./src/assets/pai-para-filho.gif" alt= "funcionalidade de evento de pai para filho" />
+</div>
 
 <p align="center">Funcionalidade criada no componente filho que altera diretamente o componente pai:</p>
 
-<img align="center" src="./src/assets/filho-para-pai.gif" alt= "funcionalidade de evento de filho para pai" />
+<div align="center">
+  <img src="./src/assets/filho-para-pai.gif" alt= "funcionalidade de evento de filho para pai" />
+</div>
